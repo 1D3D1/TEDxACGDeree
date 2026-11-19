@@ -6,7 +6,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Speakers from './pages/Speakers';
 import Talks from './pages/Talks';
-import Contact from './pages/Contact';
 import Newsletter from './pages/Newsletter';
 import Footer from './components/Footer';
 
@@ -21,7 +20,6 @@ const App: React.FC = () => {
             <Route path="/about" element={<About />} />
             <Route path="/speakers" element={<Speakers />} />
             <Route path="/talks" element={<Talks />} />
-            <Route path="/contact" element={<Contact />} />
             <Route path="/newsletter" element={<Newsletter />} />
           </Routes>
         </main>
