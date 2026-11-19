@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { CountdownTime } from '../types';
+import Contact from './Contact';
 
 const Home: React.FC = () => {
   const calculateTimeLeft = (): CountdownTime => {
@@ -128,6 +129,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
+      <Contact />
     </div>
   );
 };
